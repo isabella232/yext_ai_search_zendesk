@@ -7,7 +7,7 @@
     "parameters": {
       "Auto Populate Search Bar from Subject?": {
       	"label": "Auto Populate Search Bar",
-        "helpText": "By checking the above box, Yext Search will automatically query the ticket subject."
+        "helpText": "By checking the above box, Yext Search will automatically search using the ticket subject."
       }
   }
 }
