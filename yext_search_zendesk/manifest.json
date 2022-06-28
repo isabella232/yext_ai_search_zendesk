@@ -21,7 +21,7 @@
     "required": true
   },
   {
-    "name": "Auto Populate Search Bar?",
+    "name": "Auto Populate Search Bar",
     "type": "checkbox"
   }],
   "version": "1.3",

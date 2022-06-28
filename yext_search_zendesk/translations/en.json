@@ -6,8 +6,8 @@
     "installation_instructions": "For Zendesk users with an Answers experience, follow the guide for [Integrating Zendesk](https://hitchhikers.yext.com/guides/integrating-zendesk/?utm_source=Zendesk&utm_medium=Partner&utm_campaign=Integrations&utm_content=listing+&mktg=app&utm_term=text) on our Hitchhikers site.\n\nThe Yext Search app is free to Yext and Zendesk customers. If you don’t have a Yext account, sign up for a free trial [here](https://www.yext.com/try/zendesk/?utm_source=Zendesk&utm_medium=Partner&utm_campaign=integrations&utm_content=listing%20&mktg=app&utm_term=text) and get started building your Answers experience!",
     "parameters": {
       "Auto Populate Search Bar from Subject?": {
-      	"label": "Auto Populate Search Bar?",
-        "helpText": "By checking the above box, Yext Search will automatically query for the ticket subject."
+      	"label": "Auto Populate Search Bar",
+        "helpText": "By checking the above box, Yext Search will automatically query the ticket subject."
       }
   }
 }

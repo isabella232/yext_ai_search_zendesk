@@ -23,7 +23,7 @@ client.metadata().then(function(metadata) {
         }
         script.src = url;
 
-        autoFillSearchBar = metadata.settings["Auto Populate Search Bar from Subject?"];
+        autoFillSearchBar = metadata.settings["Auto Populate Search Bar"];
         
       script.onload = function() {
         AnswersExperienceFrame.runtimeConfig.set('linkTarget', '_blank');
