@@ -23,11 +23,12 @@ client.metadata().then(function(metadata) {
         }
         script.src = url;
 
-        autoFillSearchBar = metadata.settings["Auto Populate Search Bar from Subject?"];
+        autoFillSearchBar = metadata.settings["Auto Populate Search Bar"];
         
       script.onload = function() {
         AnswersExperienceFrame.runtimeConfig.set('linkTarget', '_blank');
         AnswersExperienceFrame.runtimeConfig.set('querySource', 'AGENT_DESKTOP');
+        AnswersExperienceFrame.init({});
         client.get("ticket.subject").then(function(data) {
             if (data["ticket.subject"] && autoFillSearchBar) {
                 document.getElementById("answers-container").firstElementChild.src += "&query=" + data["ticket.subject"];

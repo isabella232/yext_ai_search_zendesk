@@ -1,5 +1,5 @@
 {
-  "name": "Yext AI Search",
+  "name": "Yext Search",
   "author": {
     "name": "Yext",
     "email": "support@yext.com",
@@ -21,9 +21,9 @@
     "required": true
   },
   {
-    "name": "Auto Populate Search Bar from Subject?",
+    "name": "Auto Populate Search Bar",
     "type": "checkbox"
   }],
-  "version": "1.0",
+  "version": "1.3",
   "frameworkVersion": "2.0"
 }
